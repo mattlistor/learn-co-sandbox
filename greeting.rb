@@ -1,13 +1,18 @@
-def greeting 
-  puts "Hello World!"
-end
-
-def say_greeting_five_times
-  greeting
-  greeting
-  greeting
-  greeting
-  greeting
-end
+const age = 15;
  
-say_greeting_five_times
+let isTeenager;
+ 
+switch (age) {
+    case 13:
+    case 14:
+    case 15:
+    case 16:
+    case 17:
+    case 18:
+    case 19:
+        isTeenager = true;
+        console.log('case 19: ', isTeenager);
+    default:
+        isTeenager = false;
+        console.log('default: ', isTeenager);
+}
